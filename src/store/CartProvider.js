@@ -25,6 +25,7 @@ const cartReducer = (state, action) => {
       updatedItems = state.items.concat(action.item)
     }
     
+    
     return { 
       items: updatedItems, 
       totalAmount: updatedTotalAmount 
