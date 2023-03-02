@@ -17,6 +17,7 @@ const MealItem = props => {
       price: props.price
     })
   }
+  
 
   return (
     <li className={ classes.meal }>
